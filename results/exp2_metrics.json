@@ -1,0 +1,63 @@
+{
+  "limiting_terminal_fractions": {
+    "Rank-one mean field": {
+      "h_terminal": 0.406243089913999,
+      "expected": 0.4062
+    },
+    "Core-periphery": {
+      "h_terminal": 0.22260058553927836,
+      "expected": 0.2226
+    },
+    "Overlapping CCP": {
+      "h_terminal": 0.24174841026390217,
+      "expected": 0.2417
+    },
+    "Bank-NBFI multiplex": {
+      "h_terminal": 0.13037594573345496,
+      "expected": 0.1304
+    }
+  },
+  "deterministic_convergence": {
+    "Rank-one mean field": {
+      "N400_error": 0.005364818945574279,
+      "N400_expected": 0.001276,
+      "N1600_error": 0.0017818539810596223,
+      "N1600_expected": 0.000315
+    },
+    "Core-periphery": {
+      "N400_error": 0.002908526586838822,
+      "N400_expected": 0.002543,
+      "N1600_error": 0.0009934520835578886,
+      "N1600_expected": 0.000627
+    },
+    "Overlapping CCP": {
+      "N400_error": 0.004170318965279446,
+      "N400_expected": 0.00341,
+      "N1600_error": 0.0013546384837132552,
+      "N1600_expected": 0.000886
+    },
+    "Bank-NBFI multiplex": {
+      "N400_error": 0.003326515356488785,
+      "N400_expected": 0.002546,
+      "N1600_error": 0.0008706867076676422,
+      "N1600_expected": 0.000622
+    }
+  },
+  "mc_convergence": {
+    "slope": -0.46181150463260695,
+    "N_list": [
+      100,
+      200,
+      400,
+      800,
+      1600
+    ],
+    "mean_errors": [
+      0.1707579503770427,
+      0.11693691012364633,
+      0.08675173072524765,
+      0.06469071458142236,
+      0.04632764136352316
+    ]
+  }
+}

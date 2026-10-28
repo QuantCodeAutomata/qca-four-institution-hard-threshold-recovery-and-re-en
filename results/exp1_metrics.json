@@ -1,0 +1,22 @@
+{
+  "event_times_simulated": [
+    0.39999999999999997,
+    1.0,
+    1.6,
+    3.0,
+    3.7
+  ],
+  "event_times_expected": [
+    0.4,
+    1.0,
+    1.6,
+    3.0,
+    3.7
+  ],
+  "event_time_max_abs_err": 5.551115123125783e-17,
+  "H4_terminal_simulated": 2.5,
+  "H4_terminal_expected": 2.5,
+  "H4_terminal_abs_err": 0.0,
+  "max_X4_path_err": 8.326672684688674e-17,
+  "max_H4_path_err": 5.551115123125783e-17
+}
